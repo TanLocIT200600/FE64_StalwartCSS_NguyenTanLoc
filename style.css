@@ -9,11 +9,12 @@ header {
     display: flex;
     align-items: top;
     justify-content: space-around;
-    padding: 15px 0;
+    margin-bottom: -35px;
 }
 
 .brand {
     position: relative;
+    z-index: 1;
 }
 
 .brand h1 {
@@ -23,11 +24,11 @@ header {
 }
 
 .brand p {
-    z-index: inherit;
     text-transform: uppercase;
     color: black;
     position: relative;
     font-size: 1.2rem;
+    color: white;
 }
 
 nav ul {
@@ -63,7 +64,7 @@ nav ul li.active a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    top: -25px;
+    /* top: -25px; */
     position: relative;
 }
 
@@ -185,11 +186,9 @@ nav ul li.active a {
 #ourwork .our-left,
 #ourwork .our-mid,
 #ourwork .our-right {
-    width: 32%;
+    width: 31%;
     float: left;
     margin: 20px 10px;
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 #ourwork .our-left .our-item img,
@@ -219,7 +218,7 @@ nav ul li.active a {
 
 .succeed-right {
     width: 40%;
-    margin-left: 300px;
+    margin-left: 20%;
     float: left;
 }
 
@@ -344,7 +343,7 @@ nav ul li.active a {
 
 .footer-email input {
     margin-left: 50px;
-    width: 300px;
+    width: 60%;
     padding: 5px;
 }
 
